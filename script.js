@@ -1,0 +1,1 @@
+// JavaScript image slider

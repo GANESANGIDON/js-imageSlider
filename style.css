@@ -1,0 +1,17 @@
+/* JavaScript image slider */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#slider-container {
+  min-width: 250px;
+  max-width: 900px;
+  min-height: 200px;
+  max-height: 500px;
+  background: greenyellow
+    url("https://sportshub.cbsistatic.com/i/2021/11/08/bbf05080-de5a-4e74-977f-0a35efe0d9d5/spider-man-no-way-home-poster.jpg");
+  border: 3px solid brown;
+}
