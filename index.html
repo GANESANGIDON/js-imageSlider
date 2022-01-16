@@ -5,12 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Image Slider</title>
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- custom css -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="slider-container">
-      <img src="" alt="image" class="slider" />
-    </div>
+    <main>
+      <h2>Image Slider</h2>
+      <!-- slider container -->
+      <div id="slider-container">
+        <!-- previous button -->
+        <div class="slidebtn" id="prev">
+          <i class="fas fa-chevron-left" id="slide-left-icon"></i>
+        </div>
+        <!-- slider image -->
+        <img src="" alt="image" class="slider" />
+        <!-- next button -->
+        <div class="slidebtn" id="next">
+          <i class="fas fa-chevron-right" id="slide-right-icon"></i>
+        </div>
+      </div>
+      <small>
+        click on the left and right side of the image slider to change the
+        image.
+      </small>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
