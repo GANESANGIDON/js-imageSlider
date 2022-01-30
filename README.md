@@ -2,6 +2,4 @@
 
 ### A simple Image slider using javascript.
 
-### Deployed Link: 
-
-
+### Deployed Link: https://ganesangidon.github.io/js-imageSlider/
