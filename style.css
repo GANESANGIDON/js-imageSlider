@@ -85,6 +85,10 @@ main {
   transition: 0.5s;
 }
 
+#help-text{
+  text-align: center;
+}
+
 /* For smart phone and small tablet devices */
 @media (min-width: 481px) {
   #slider-container {
@@ -102,17 +106,9 @@ main {
 }
 
 /* For small laptop devices */
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   #slider-container {
-    width: 90%;
+    width: 80%;
     height: 510px;
-  }
-}
-
-/* For large devices */
-@media (min-width: 1201px) {
-  #slider-container {
-    width: 90%;
-    height: 580px;
   }
 }
