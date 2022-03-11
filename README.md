@@ -1,6 +1,6 @@
 ## javaScript ImageSlider
 
-### A simple Image slider using javascript.
+### A simple Image slider using javascript array.
 
 ### Deployed Link: https://ganesangidon.github.io/js-imageSlider/
 
